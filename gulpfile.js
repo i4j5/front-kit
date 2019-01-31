@@ -41,7 +41,6 @@ const paths = {
 	],
 
 	vendorsCss: [
-		'./node_modules/normalize.css/normalize.css',
 		'./app/vendors/css/**/*'
 	],
 
