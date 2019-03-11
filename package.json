@@ -1,7 +1,7 @@
 {
-  "name": "front-kit",
+  "name": "front-bk-invent",
   "version": "0.0.0",
-  "description": "",
+  "description": "`yarn` или `npm init`\r `yarn run first:start` или `npm run first:start`",
   "main": "gulpfile.js",
   "scripts": {
     "first:start": "gulp mkdirs",

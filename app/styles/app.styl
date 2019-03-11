@@ -2,21 +2,8 @@
 @import 'helpers/mixins'
 @import 'helpers/fonts'
 @import 'helpers/normalize'
-@import 'helpers/flex-grid'
 
 @import '../blocks/**/*'
-
-.row
-    make-row()
-.col
-    make-col-ready()
-    make-col('xs') //Extra small devices 
-    @media (min-width 768px)
-        make-col('sm') //Small devices Tablets 
-    @media (min-width 992px)
-        make-col('md') //Medium devices Desktops 
-    @media (min-width 1200px)
-        make-col('lg') //Large devices Desktops 
 
 .container
     padding 0 10px
